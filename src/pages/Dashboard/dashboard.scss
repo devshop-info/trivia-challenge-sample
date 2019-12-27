@@ -1,0 +1,18 @@
+/*
+*  File:            dashboard.scss
+*  Description:     This files holds styles specific for Dashboard
+*  Author:          RK
+*/
+
+.jumbotron{
+    max-width: 700px;
+    margin: 2rem auto;
+    h1
+    {
+        margin-bottom: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+        margin: 2rem auto;
+    }
+}

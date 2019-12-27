@@ -1,0 +1,28 @@
+/*
+* File: 		toast.scss
+* Description:	This file holds styles for the bootstrap toast warnings extend colors
+* Author:      RK
+* 
+*
+*/
+
+.toast-wrapper {
+  position: relative;
+  .toast {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  &.danger {
+    .toast, .toast-header {
+      @extend .bg-danger;
+      @extend .text-white;
+    }
+  }
+  &.success {
+    .toast, .toast-header {
+      @extend .bg-success;
+      @extend .text-white;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+/*
+ *   File:           main.scss
+ *   Description:    This files holds main default styles
+ *   Author:         RK
+ */
+
+ // Helpers
+ @import 'helpers/variables';
+ @import 'helpers/_bootstrap-variables';
+
+ // Base Styles
+ @import 'base/_fonts'; 
+
+ // Vendors
+ @import 'vendors/bootstrap';
+ 
+
+ // Component styles
+@import 'components/toast';
