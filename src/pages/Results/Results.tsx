@@ -23,7 +23,6 @@ class Results extends React.Component<AllProps> {
         analyzeTest(questions);
     }
     componentWillUnmount() {
-        console.log("componentWillUnmount");
         this.props.destroyTest();
     }
     render() {

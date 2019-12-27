@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-$ git clone https://github.com/rebecabkerr/trivia-challenge-sample.git
+$ git clone https://github.com/devshop-info/trivia-challenge-sample
 $ npm install
 ```
 
